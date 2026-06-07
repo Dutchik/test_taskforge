@@ -1,7 +1,7 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T12:52:03.607Z",
+  "exportedAt": "2026-06-07T12:53:37.091Z",
   "data": {
     "version": 1,
     "language": "ja",
@@ -582,7 +582,7 @@
     "appSettings": {
       "version": 1,
       "defaultView": "dashboard",
-      "selectedThemeId": "github-dark",
+      "selectedThemeId": "taskforge-theme-violet",
       "calendarRangeDays": 30,
       "timeLogRoundingMinutes": 1,
       "dashboardLayout": {
@@ -657,9 +657,9 @@
       "providerName": "GitHub",
       "accountEmail": null,
       "status": "idle",
-      "lastSyncAt": "2026-06-07T12:51:49.602Z",
+      "lastSyncAt": "2026-06-07T12:53:28.947Z",
       "error": "Pulled remote workspace."
     },
-    "updatedAt": "2026-06-07T12:51:49.602Z"
+    "updatedAt": "2026-06-07T12:53:28.947Z"
   }
 }
