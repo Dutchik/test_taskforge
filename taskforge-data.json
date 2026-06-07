@@ -1,23 +1,71 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T12:21:45.341Z",
+  "exportedAt": "2026-06-07T12:42:51.080Z",
   "data": {
     "version": 1,
     "language": "ja",
     "projects": [
       {
+        "id": "019ea209-7b90-7e20-b96f-d0fb8deeb74d",
+        "name": "哲学",
+        "description": "",
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:23:10.992Z",
+        "updatedAt": "2026-06-07T12:23:36.446Z",
+        "deletedAt": "2026-06-07T12:23:36.446Z",
+        "isDirty": true
+      },
+      {
+        "id": "019ea209-0662-7219-9809-d5d89363bbb6",
+        "name": "プログラミング",
+        "description": "",
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:22:40.994Z",
+        "updatedAt": "2026-06-07T12:22:40.994Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea208-d5e1-7f23-807e-08819251c16b",
+        "name": "数学",
+        "description": "",
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:22:28.577Z",
+        "updatedAt": "2026-06-07T12:22:28.577Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea208-c53a-77f1-9cbd-ee9e344bc2d1",
+        "name": "哲学",
+        "description": "",
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:22:24.314Z",
+        "updatedAt": "2026-06-07T12:41:18.655Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
         "id": "019e8d93-8c9e-76eb-b4f4-4a0771a4787c",
         "name": "Linux",
         "description": "Daily command line and server practice",
         "createdAt": "2026-06-03T13:01:57.790Z",
-        "updatedAt": "2026-06-03T13:01:57.790Z",
-        "deletedAt": null,
+        "updatedAt": "2026-06-07T12:22:11.871Z",
+        "deletedAt": "2026-06-07T12:22:11.871Z",
         "isDirty": true,
         "customProperties": []
       }
     ],
     "tags": [
+      {
+        "id": "019ea209-c00b-7a2d-bc55-0eda098da609",
+        "name": "哲学",
+        "createdAt": "2026-06-07T12:23:28.523Z",
+        "updatedAt": "2026-06-07T12:23:28.523Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
       {
         "id": "019e8d93-8c9e-7198-820a-0b68c8ca33f1",
         "name": "数学",
@@ -38,20 +86,84 @@
     "categories": [],
     "tasks": [
       {
+        "id": "019ea20f-4141-7e3a-af96-022465f65277",
+        "projectId": null,
+        "title": "数学",
+        "description": "",
+        "priority": "medium",
+        "status": "done",
+        "measureType": "check",
+        "targetCount": null,
+        "currentCount": null,
+        "countUnit": "",
+        "dueDate": "2026-06-07",
+        "estimate": 1,
+        "tagIds": [],
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:29:29.281Z",
+        "updatedAt": "2026-06-07T12:34:58.131Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "projectId": null,
+        "title": "Taskforge開発作業",
+        "description": "",
+        "priority": "medium",
+        "status": "done",
+        "measureType": "check",
+        "targetCount": null,
+        "currentCount": null,
+        "countUnit": "",
+        "dueDate": "2026-06-07",
+        "estimate": 1,
+        "tagIds": [
+          "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
+        ],
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:25:57.708Z",
+        "updatedAt": "2026-06-07T12:35:17.599Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "projectId": null,
+        "title": "読書",
+        "description": "",
+        "priority": "medium",
+        "status": "done",
+        "measureType": "check",
+        "targetCount": null,
+        "currentCount": null,
+        "countUnit": "",
+        "dueDate": "2026-06-07",
+        "estimate": 100,
+        "tagIds": [
+          "019ea209-c00b-7a2d-bc55-0eda098da609"
+        ],
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:24:13.369Z",
+        "updatedAt": "2026-06-07T12:39:59.645Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
         "id": "019e8d93-8c9e-768c-8aed-ec87e747f978",
-        "projectId": "019e8d93-8c9e-76eb-b4f4-4a0771a4787c",
+        "projectId": null,
         "title": "TaskForge Web版の動作確認",
         "description": "タスク作成、タグ付け、タイムログを一通り確認する",
         "priority": "high",
-        "status": "done",
+        "status": "todo",
         "dueDate": "2026-06-03",
         "estimate": 3,
         "tagIds": [
           "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
         ],
         "createdAt": "2026-06-03T13:01:57.790Z",
-        "updatedAt": "2026-06-07T11:26:30.358Z",
-        "deletedAt": null,
+        "updatedAt": "2026-06-07T12:22:11.871Z",
+        "deletedAt": "2026-06-07T12:22:07.807Z",
         "isDirty": true,
         "measureType": "check",
         "targetCount": null,
@@ -61,6 +173,127 @@
       }
     ],
     "taskHistory": [
+      {
+        "id": "019ea218-df9d-7eed-860f-88c6719a50db",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "oldStatus": "todo",
+        "newStatus": "done",
+        "changedAt": "2026-06-07T12:39:59.645Z",
+        "createdAt": "2026-06-07T12:39:59.645Z",
+        "updatedAt": "2026-06-07T12:39:59.645Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-d359-71d9-a588-734b6ebb0840",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "oldStatus": "done",
+        "newStatus": "todo",
+        "changedAt": "2026-06-07T12:35:34.361Z",
+        "createdAt": "2026-06-07T12:35:34.361Z",
+        "updatedAt": "2026-06-07T12:35:34.361Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-9524-773f-bc4b-06e4360f771a",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "oldStatus": "todo",
+        "newStatus": "done",
+        "changedAt": "2026-06-07T12:35:18.436Z",
+        "createdAt": "2026-06-07T12:35:18.436Z",
+        "updatedAt": "2026-06-07T12:35:18.436Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-91df-7028-a3bf-f0dfbb9d23a2",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "oldStatus": "todo",
+        "newStatus": "done",
+        "changedAt": "2026-06-07T12:35:17.599Z",
+        "createdAt": "2026-06-07T12:35:17.599Z",
+        "updatedAt": "2026-06-07T12:35:17.599Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-75ca-70d3-aa39-894f4065cd99",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "oldStatus": "done",
+        "newStatus": "todo",
+        "changedAt": "2026-06-07T12:35:10.410Z",
+        "createdAt": "2026-06-07T12:35:10.410Z",
+        "updatedAt": "2026-06-07T12:35:10.410Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-45d3-7424-80da-27afc0642233",
+        "taskId": "019ea20f-4141-7e3a-af96-022465f65277",
+        "oldStatus": "todo",
+        "newStatus": "done",
+        "changedAt": "2026-06-07T12:34:58.131Z",
+        "createdAt": "2026-06-07T12:34:58.131Z",
+        "updatedAt": "2026-06-07T12:34:58.131Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20f-4141-776a-84fa-ca5f6ac20f9a",
+        "taskId": "019ea20f-4141-7e3a-af96-022465f65277",
+        "oldStatus": null,
+        "newStatus": "todo",
+        "changedAt": "2026-06-07T12:29:29.281Z",
+        "createdAt": "2026-06-07T12:29:29.281Z",
+        "updatedAt": "2026-06-07T12:29:29.281Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20c-9f09-766a-aed2-dcd92b588e29",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "oldStatus": "in_progress",
+        "newStatus": "done",
+        "changedAt": "2026-06-07T12:26:36.680Z",
+        "createdAt": "2026-06-07T12:26:36.680Z",
+        "updatedAt": "2026-06-07T12:26:36.680Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20c-06cd-7f0e-889c-1cad390f02c1",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "oldStatus": null,
+        "newStatus": "in_progress",
+        "changedAt": "2026-06-07T12:25:57.708Z",
+        "createdAt": "2026-06-07T12:25:57.708Z",
+        "updatedAt": "2026-06-07T12:25:57.708Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea20a-6f3a-708e-9022-845aa6d4615e",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "oldStatus": null,
+        "newStatus": "todo",
+        "changedAt": "2026-06-07T12:24:13.369Z",
+        "createdAt": "2026-06-07T12:24:13.369Z",
+        "updatedAt": "2026-06-07T12:24:13.369Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea208-8031-7326-9ca1-967cd942b223",
+        "taskId": "019e8d93-8c9e-768c-8aed-ec87e747f978",
+        "oldStatus": "done",
+        "newStatus": "todo",
+        "changedAt": "2026-06-07T12:22:06.640Z",
+        "createdAt": "2026-06-07T12:22:06.640Z",
+        "updatedAt": "2026-06-07T12:22:06.640Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
       {
         "id": "019ea1d5-97d7-7bb6-a508-a7c239ffc4a1",
         "taskId": "019e8d93-8c9e-768c-8aed-ec87e747f978",
@@ -86,6 +319,20 @@
     ],
     "timeLogs": [
       {
+        "id": "019ea210-0215-767a-a14f-79c2d41e2253",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "projectId": null,
+        "startTime": "2026-06-07T12:30:18.645Z",
+        "endTime": "2026-06-07T12:32:42.145Z",
+        "durationSeconds": 144,
+        "note": "",
+        "customProperties": [],
+        "createdAt": "2026-06-07T12:30:18.645Z",
+        "updatedAt": "2026-06-07T12:35:22.639Z",
+        "deletedAt": "2026-06-07T12:35:22.639Z",
+        "isDirty": true
+      },
+      {
         "id": "019e9c7a-6a74-77a3-9b75-159984c95a7a",
         "taskId": "019e8d93-8c9e-768c-8aed-ec87e747f978",
         "projectId": "019e8d93-8c9e-76eb-b4f4-4a0771a4787c",
@@ -95,8 +342,8 @@
         "note": "",
         "customProperties": [],
         "createdAt": "2026-06-06T10:28:48.884Z",
-        "updatedAt": "2026-06-07T11:26:20.199Z",
-        "deletedAt": null,
+        "updatedAt": "2026-06-07T12:23:46.731Z",
+        "deletedAt": "2026-06-07T12:23:46.731Z",
         "isDirty": true
       },
       {
@@ -116,6 +363,130 @@
     ],
     "executionLogs": [
       {
+        "id": "019ea218-df9d-7dd7-ac32-50ab4f94ce4a",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "projectId": null,
+        "title": "読書",
+        "startedAt": "2026-06-07T12:39:59.645Z",
+        "endedAt": "2026-06-07T12:39:59.645Z",
+        "durationMinutes": 0,
+        "status": "completed",
+        "memo": "Marked done",
+        "tags": [
+          "019ea209-c00b-7a2d-bc55-0eda098da609"
+        ],
+        "createdAt": "2026-06-07T12:39:59.645Z",
+        "updatedAt": "2026-06-07T12:40:29.225Z",
+        "deletedAt": "2026-06-07T12:40:29.225Z",
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-9524-7a03-883e-8ed1713b7d57",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "projectId": "019ea208-c53a-77f1-9cbd-ee9e344bc2d1",
+        "title": "読書",
+        "startedAt": "2026-06-07T21:35:00.000Z",
+        "endedAt": "2026-06-07T21:45:00.000Z",
+        "durationMinutes": 10,
+        "status": "completed",
+        "memo": "Marked done",
+        "tags": [
+          "019ea209-c00b-7a2d-bc55-0eda098da609"
+        ],
+        "createdAt": "2026-06-07T12:35:18.436Z",
+        "updatedAt": "2026-06-07T12:38:08.807Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-91df-7ed5-b4b8-91e90468b16d",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "projectId": null,
+        "title": "Taskforge開発作業",
+        "startedAt": "2026-06-07T12:35:17.599Z",
+        "endedAt": "2026-06-07T21:35:00.000Z",
+        "durationMinutes": 540,
+        "status": "completed",
+        "memo": "Marked done",
+        "tags": [
+          "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
+        ],
+        "createdAt": "2026-06-07T12:35:17.599Z",
+        "updatedAt": "2026-06-07T12:38:36.370Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea214-45d3-7328-91f1-7f4fe4fe5909",
+        "taskId": "019ea20f-4141-7e3a-af96-022465f65277",
+        "projectId": null,
+        "title": "数学",
+        "startedAt": "2026-06-07T12:34:58.131Z",
+        "endedAt": "2026-06-07T12:34:58.131Z",
+        "durationMinutes": 0,
+        "status": "completed",
+        "memo": "Marked done",
+        "tags": [],
+        "createdAt": "2026-06-07T12:34:58.131Z",
+        "updatedAt": "2026-06-07T12:35:21.290Z",
+        "deletedAt": "2026-06-07T12:35:21.290Z",
+        "isDirty": true
+      },
+      {
+        "id": "019ea210-0215-767a-a14f-79c2d41e2253",
+        "taskId": "019ea20a-6f3a-70e5-a0a9-467ffc77b432",
+        "projectId": "019ea208-c53a-77f1-9cbd-ee9e344bc2d1",
+        "title": "読書",
+        "startedAt": "2026-06-07T12:30:00.000Z",
+        "endedAt": "2026-06-07T12:35:00.000Z",
+        "durationMinutes": 5,
+        "status": "paused",
+        "memo": "",
+        "tags": [
+          "019ea209-c00b-7a2d-bc55-0eda098da609"
+        ],
+        "createdAt": "2026-06-07T12:30:18.645Z",
+        "updatedAt": "2026-06-07T12:35:22.639Z",
+        "deletedAt": "2026-06-07T12:35:22.639Z",
+        "isDirty": true
+      },
+      {
+        "id": "019ea20c-9f09-7f36-a60c-378c764f8cd7",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "projectId": null,
+        "title": "Taskforge開発作業",
+        "startedAt": "2026-06-07T12:26:36.680Z",
+        "endedAt": "2026-06-07T12:26:36.680Z",
+        "durationMinutes": 0,
+        "status": "completed",
+        "memo": "Marked done",
+        "tags": [
+          "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
+        ],
+        "createdAt": "2026-06-07T12:26:36.680Z",
+        "updatedAt": "2026-06-07T12:26:56.760Z",
+        "deletedAt": "2026-06-07T12:26:56.760Z",
+        "isDirty": true
+      },
+      {
+        "id": "019ea20c-4fd2-7104-8e47-b91b38b1dbba",
+        "taskId": "019ea20c-06cd-71ba-88ea-7b227fbb69e6",
+        "projectId": null,
+        "title": "Taskforge開発作業",
+        "startedAt": "2026-06-07T12:25:59.580Z",
+        "endedAt": "2026-06-07T12:26:00.000Z",
+        "durationMinutes": 0,
+        "status": "completed",
+        "memo": "",
+        "tags": [
+          "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
+        ],
+        "createdAt": "2026-06-07T12:26:16.402Z",
+        "updatedAt": "2026-06-07T12:35:24.206Z",
+        "deletedAt": "2026-06-07T12:35:24.206Z",
+        "isDirty": true
+      },
+      {
         "id": "019ea1d5-97d7-733f-956d-c4de09e2284c",
         "taskId": "019e8d93-8c9e-768c-8aed-ec87e747f978",
         "projectId": "019e8d93-8c9e-76eb-b4f4-4a0771a4787c",
@@ -129,8 +500,8 @@
           "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
         ],
         "createdAt": "2026-06-07T11:26:30.358Z",
-        "updatedAt": "2026-06-07T11:26:30.358Z",
-        "deletedAt": null,
+        "updatedAt": "2026-06-07T12:23:45.596Z",
+        "deletedAt": "2026-06-07T12:23:45.596Z",
         "isDirty": true
       },
       {
@@ -147,8 +518,8 @@
           "019e8d93-8c9e-75a4-aead-b3fea8f62fd3"
         ],
         "createdAt": "2026-06-06T10:28:48.884Z",
-        "updatedAt": "2026-06-07T11:26:20.199Z",
-        "deletedAt": null,
+        "updatedAt": "2026-06-07T12:23:46.731Z",
+        "deletedAt": "2026-06-07T12:23:46.731Z",
         "isDirty": true
       },
       {
@@ -182,7 +553,7 @@
         "tags": [],
         "customProperties": [],
         "createdAt": "2026-06-07T11:12:44.753Z",
-        "updatedAt": "2026-06-07T11:49:32.606Z",
+        "updatedAt": "2026-06-07T12:41:46.026Z",
         "deletedAt": null,
         "isDirty": true
       },
@@ -286,9 +657,9 @@
       "providerName": "GitHub",
       "accountEmail": null,
       "status": "idle",
-      "lastSyncAt": "2026-06-07T12:21:33.299Z",
-      "error": "Pulled remote workspace."
+      "lastSyncAt": "2026-06-07T12:42:46.844Z",
+      "error": "GitHub connection OK."
     },
-    "updatedAt": "2026-06-07T12:21:33.299Z"
+    "updatedAt": "2026-06-07T12:41:46.026Z"
   }
 }
