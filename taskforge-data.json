@@ -1,7 +1,7 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T12:42:51.080Z",
+  "exportedAt": "2026-06-07T12:44:15.987Z",
   "data": {
     "version": 1,
     "language": "ja",
@@ -553,7 +553,7 @@
         "tags": [],
         "customProperties": [],
         "createdAt": "2026-06-07T11:12:44.753Z",
-        "updatedAt": "2026-06-07T12:41:46.026Z",
+        "updatedAt": "2026-06-07T12:43:36.721Z",
         "deletedAt": null,
         "isDirty": true
       },
@@ -654,12 +654,12 @@
       "hiddenWidgets": []
     },
     "syncStatus": {
-      "providerName": "GitHub",
+      "providerName": "Awokela Store",
       "accountEmail": null,
       "status": "idle",
-      "lastSyncAt": "2026-06-07T12:42:46.844Z",
-      "error": "GitHub connection OK."
+      "lastSyncAt": "2026-06-07T12:43:36.721Z",
+      "error": "1 installed store item imported."
     },
-    "updatedAt": "2026-06-07T12:41:46.026Z"
+    "updatedAt": "2026-06-07T12:43:36.721Z"
   }
 }
