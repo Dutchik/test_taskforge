@@ -1,7 +1,7 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T12:47:14.408Z",
+  "exportedAt": "2026-06-07T12:52:03.607Z",
   "data": {
     "version": 1,
     "language": "ja",
@@ -622,7 +622,7 @@
       }
     },
     "homeLayout": {
-      "preset": "1,3",
+      "preset": "3,1",
       "rows": [
         {
           "rowId": "row_1",
@@ -630,12 +630,7 @@
             {
               "slotId": "slot_1",
               "widgetType": "monthly_calendar"
-            }
-          ]
-        },
-        {
-          "rowId": "row_2",
-          "columns": [
+            },
             {
               "slotId": "slot_2",
               "widgetType": "start_timer"
@@ -643,7 +638,12 @@
             {
               "slotId": "slot_3",
               "widgetType": "today_work_time"
-            },
+            }
+          ]
+        },
+        {
+          "rowId": "row_2",
+          "columns": [
             {
               "slotId": "slot_4",
               "widgetType": "activity_heatmap"
@@ -657,9 +657,9 @@
       "providerName": "GitHub",
       "accountEmail": null,
       "status": "idle",
-      "lastSyncAt": "2026-06-07T12:47:12.882Z",
+      "lastSyncAt": "2026-06-07T12:51:49.602Z",
       "error": "Pulled remote workspace."
     },
-    "updatedAt": "2026-06-07T12:47:12.882Z"
+    "updatedAt": "2026-06-07T12:51:49.602Z"
   }
 }
