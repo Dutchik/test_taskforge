@@ -1,7 +1,7 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T11:58:46.831Z",
+  "exportedAt": "2026-06-07T12:21:45.341Z",
   "data": {
     "version": 1,
     "language": "ja",
@@ -285,10 +285,10 @@
     "syncStatus": {
       "providerName": "GitHub",
       "accountEmail": null,
-      "status": "error",
-      "lastSyncAt": "2026-06-07T11:49:32.606Z",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "idle",
+      "lastSyncAt": "2026-06-07T12:21:33.299Z",
+      "error": "Pulled remote workspace."
     },
-    "updatedAt": "2026-06-07T11:49:32.606Z"
+    "updatedAt": "2026-06-07T12:21:33.299Z"
   }
 }
