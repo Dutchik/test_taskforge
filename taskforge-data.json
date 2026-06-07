@@ -1,7 +1,7 @@
 {
   "app": "TaskForge",
   "version": 1,
-  "exportedAt": "2026-06-07T12:44:15.987Z",
+  "exportedAt": "2026-06-07T12:47:14.408Z",
   "data": {
     "version": 1,
     "language": "ja",
@@ -582,7 +582,7 @@
     "appSettings": {
       "version": 1,
       "defaultView": "dashboard",
-      "selectedThemeId": "taskforge-theme-violet",
+      "selectedThemeId": "github-dark",
       "calendarRangeDays": 30,
       "timeLogRoundingMinutes": 1,
       "dashboardLayout": {
@@ -654,12 +654,12 @@
       "hiddenWidgets": []
     },
     "syncStatus": {
-      "providerName": "Awokela Store",
+      "providerName": "GitHub",
       "accountEmail": null,
       "status": "idle",
-      "lastSyncAt": "2026-06-07T12:43:36.721Z",
-      "error": "1 installed store item imported."
+      "lastSyncAt": "2026-06-07T12:47:12.882Z",
+      "error": "Pulled remote workspace."
     },
-    "updatedAt": "2026-06-07T12:43:36.721Z"
+    "updatedAt": "2026-06-07T12:47:12.882Z"
   }
 }
