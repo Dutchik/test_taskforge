@@ -1,0 +1,434 @@
+{
+  "app": "TaskForge",
+  "version": 1,
+  "exportedAt": "2026-06-07T08:16:20.078Z",
+  "data": {
+    "version": 1,
+    "language": "ja",
+    "projects": [
+      {
+        "id": "019ea11d-e0c1-7f9c-9383-0201b0d33a3c",
+        "name": "Linux",
+        "description": "Daily command line and server practice",
+        "customProperties": [],
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "tags": [
+      {
+        "id": "019ea11d-e0c1-755c-9824-9fb943f3ea41",
+        "name": "数学",
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea11d-e0c1-73bc-bc0c-220d25ce9259",
+        "name": "プログラミング",
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "categories": [],
+    "tasks": [
+      {
+        "id": "019ea11d-e0c1-74b4-a57d-f9f580d115d1",
+        "projectId": "019ea11d-e0c1-7f9c-9383-0201b0d33a3c",
+        "title": "TaskForge Web版の動作確認",
+        "description": "タスク作成、タグ付け、タイムログを一通り確認する",
+        "priority": "high",
+        "status": "in_progress",
+        "measureType": "time",
+        "targetCount": null,
+        "currentCount": null,
+        "countUnit": "",
+        "dueDate": "2026-06-07",
+        "estimate": 3,
+        "tagIds": [
+          "019ea11d-e0c1-73bc-bc0c-220d25ce9259"
+        ],
+        "customProperties": [],
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "taskHistory": [
+      {
+        "id": "019ea11d-e0c1-78f5-b65a-fcd4f821039a",
+        "taskId": "019ea11d-e0c1-74b4-a57d-f9f580d115d1",
+        "oldStatus": null,
+        "newStatus": "in_progress",
+        "changedAt": "2026-06-07T08:05:50.401Z",
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "timeLogs": [],
+    "executionLogs": [],
+    "notes": [
+      {
+        "id": "019ea11d-e0c1-79ae-88c9-d462ee18281d",
+        "title": "TaskForge context note",
+        "content": "TaskForge stores execution context as Markdown notes linked to projects, todos, or time logs.",
+        "format": "markdown",
+        "projectId": "019ea11d-e0c1-7f9c-9383-0201b0d33a3c",
+        "todoId": "019ea11d-e0c1-74b4-a57d-f9f580d115d1",
+        "timeLogId": null,
+        "tags": [
+          "019ea11d-e0c1-73bc-bc0c-220d25ce9259"
+        ],
+        "customProperties": [],
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "goals": [],
+    "customPropertyDefinitions": [
+      {
+        "id": "019ea11d-e0c1-7b26-acb6-e416274887d3",
+        "entityType": "todo",
+        "name": "Difficulty",
+        "type": "select",
+        "options": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "defaultValue": "medium",
+        "required": false,
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "relations": [],
+    "rollupDefinitions": [
+      {
+        "id": "019ea11d-e0c1-7da6-b6d2-bf55b6913dc1",
+        "name": "Project Todo Completion",
+        "sourceEntityType": "project",
+        "relationTargetType": "todo",
+        "metric": "completion_rate",
+        "period": "all",
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea11d-e0c1-7dfc-8e09-ccd20c22da84",
+        "name": "Project Work Time",
+        "sourceEntityType": "project",
+        "relationTargetType": "timelog",
+        "metric": "total_minutes",
+        "period": "all",
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "savedViews": [
+      {
+        "id": "019ea11d-e0c1-7292-b8d7-096fb2c86c2a",
+        "name": "Open Todo Table",
+        "entityType": "todo",
+        "viewType": "table",
+        "filters": [
+          {
+            "field": "status",
+            "operator": "not_equals",
+            "value": "done"
+          }
+        ],
+        "sorts": [
+          {
+            "field": "updatedAt",
+            "direction": "desc"
+          }
+        ],
+        "visibleProperties": [
+          "title",
+          "project",
+          "priority",
+          "status",
+          "dueDate"
+        ],
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "templates": [
+      {
+        "id": "019ea11d-e0c1-78b7-96c0-a31ed27ba689",
+        "name": "Study Project",
+        "description": "Project, todos, goal, and linked note for study work.",
+        "targetEntityType": "project",
+        "payload": {
+          "projects": [
+            {
+              "name": "Study",
+              "description": "Study execution workspace"
+            }
+          ],
+          "todos": [
+            {
+              "title": "Read reference material",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "time"
+            },
+            {
+              "title": "Solve exercises",
+              "priority": "high",
+              "status": "todo",
+              "measureType": "count",
+              "targetCount": 10,
+              "countUnit": "problems"
+            },
+            {
+              "title": "Review mistakes",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "check"
+            }
+          ],
+          "goals": [
+            {
+              "title": "Study 5 hours per week",
+              "targetType": "time",
+              "targetValue": 300,
+              "period": "week",
+              "status": "active"
+            }
+          ],
+          "notes": [
+            {
+              "title": "Study notes",
+              "content": "## Notes\n\n",
+              "format": "markdown"
+            }
+          ]
+        },
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea11d-e0c1-767c-aa1e-6c8197feb947",
+        "name": "Workout Project",
+        "description": "Workout tasks, weekly goal, and training note.",
+        "targetEntityType": "project",
+        "payload": {
+          "projects": [
+            {
+              "name": "Workout",
+              "description": "Training execution workspace"
+            }
+          ],
+          "todos": [
+            {
+              "title": "Bench press",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "count",
+              "targetCount": 5,
+              "countUnit": "sets"
+            },
+            {
+              "title": "Squat",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "count",
+              "targetCount": 5,
+              "countUnit": "sets"
+            },
+            {
+              "title": "Cardio",
+              "priority": "low",
+              "status": "todo",
+              "measureType": "time"
+            }
+          ],
+          "goals": [
+            {
+              "title": "Workout 3 times per week",
+              "targetType": "count",
+              "targetValue": 3,
+              "period": "week",
+              "status": "active"
+            }
+          ],
+          "notes": [
+            {
+              "title": "Training log",
+              "content": "## Reflection\n\n",
+              "format": "markdown"
+            }
+          ]
+        },
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      },
+      {
+        "id": "019ea11d-e0c1-7acc-ad09-5cf463c8074b",
+        "name": "Development Project",
+        "description": "Development project with implementation flow and design note.",
+        "targetEntityType": "project",
+        "payload": {
+          "projects": [
+            {
+              "name": "Development",
+              "description": "Build, test, and release execution workspace"
+            }
+          ],
+          "todos": [
+            {
+              "title": "Clarify requirements",
+              "priority": "high",
+              "status": "todo",
+              "measureType": "check"
+            },
+            {
+              "title": "Implement",
+              "priority": "high",
+              "status": "todo",
+              "measureType": "time"
+            },
+            {
+              "title": "Test",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "check"
+            },
+            {
+              "title": "Release",
+              "priority": "medium",
+              "status": "todo",
+              "measureType": "check"
+            }
+          ],
+          "goals": [
+            {
+              "title": "Development 10 hours per week",
+              "targetType": "time",
+              "targetValue": 600,
+              "period": "week",
+              "status": "active"
+            }
+          ],
+          "notes": [
+            {
+              "title": "Design memo",
+              "content": "## Design\n\n",
+              "format": "markdown"
+            }
+          ]
+        },
+        "createdAt": "2026-06-07T08:05:50.401Z",
+        "updatedAt": "2026-06-07T08:05:50.401Z",
+        "deletedAt": null,
+        "isDirty": true
+      }
+    ],
+    "appSettings": {
+      "version": 1,
+      "defaultView": "dashboard",
+      "calendarRangeDays": 30,
+      "timeLogRoundingMinutes": 1,
+      "dashboardLayout": {
+        "type": "matrix",
+        "rows": 3,
+        "columns": 2,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "rowSpan": 1,
+            "columnSpan": 2,
+            "widget": "today_training"
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "rowSpan": 1,
+            "columnSpan": 1,
+            "widget": "today_tasks"
+          },
+          {
+            "row": 2,
+            "column": 2,
+            "rowSpan": 1,
+            "columnSpan": 1,
+            "widget": "project_progress"
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "rowSpan": 1,
+            "columnSpan": 2,
+            "widget": "time_logs"
+          }
+        ]
+      }
+    },
+    "homeLayout": {
+      "preset": "3,1",
+      "rows": [
+        {
+          "rowId": "row_1",
+          "columns": [
+            {
+              "slotId": "slot_1",
+              "widgetType": "today_tasks"
+            },
+            {
+              "slotId": "slot_2",
+              "widgetType": "start_timer"
+            },
+            {
+              "slotId": "slot_3",
+              "widgetType": "today_work_time"
+            }
+          ]
+        },
+        {
+          "rowId": "row_2",
+          "columns": [
+            {
+              "slotId": "slot_4",
+              "widgetType": "monthly_calendar"
+            }
+          ]
+        }
+      ],
+      "hiddenWidgets": []
+    },
+    "syncStatus": {
+      "providerName": "GitHub",
+      "accountEmail": null,
+      "lastSyncAt": "2026-06-07T08:16:15.245Z",
+      "status": "error",
+      "error": "GitHub file not found. Push once to create taskforge-data.json."
+    },
+    "updatedAt": "2026-06-07T08:05:50.401Z"
+  }
+}
